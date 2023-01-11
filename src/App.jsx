@@ -60,6 +60,10 @@ function Form({ onSubmit }) {
         initialValues: {
             name: '',
             role: '',
+            adminField1: '',
+            adminField2: '',
+            customerField1: '',
+            customerField2: '',
         },
         validationSchema,
         onSubmit
